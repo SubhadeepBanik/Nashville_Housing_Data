@@ -118,6 +118,8 @@ set soldasvacant = Case when soldasvacant = 'Yes' THEN 'Y'
 	 Else soldasvacant
 	 END
 
+--# (6) Converting Address into 3 different fields.
+
 begin tran
 update nashville
 set Owneraddress_city = LTRIM(Owneraddress_city);
@@ -142,7 +144,7 @@ commit
 
 select * from nashville;
 
---# (6) Fill the null Owneraddress_street,Owneraddress_city with address and city
+--# (7) Fill the null Owneraddress_street,Owneraddress_city with address and city
 
 select address,Owneraddress_street,city,Owneraddress_city,Owneraddress_state
 	 from nashville
@@ -169,17 +171,17 @@ set state = Owneraddress_state;
 
 commit
 
---# (7) Deleting duplicate record
+--# (8) Deleting duplicate record
 
 WITH RowNumCTE as (
 select *,
 ROW_NUMBER () OVER (
 PARTITION BY ParcelID,
-			 address,
-			 saledate,
-			 legalreference
-			 ORDER BY 
-			 uniqueid) as row_num
+               address,
+	       saledate,
+	       legalreference
+	       ORDER BY 
+	       uniqueid) as row_num
 FROM nashville
 )
 SELECT *
