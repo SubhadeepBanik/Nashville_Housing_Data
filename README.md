@@ -1,7 +1,7 @@
 
 # SQL_for_Data_Analysis
 
-Compilation of SQL data analysis related projects and challenges where I practice aggregates and joins.
+Compilation of SQL data analysis related projects and challenges where I practice aggregates,joins and windows functions.
 
 This data is about NasNashville property and their owners.
 
