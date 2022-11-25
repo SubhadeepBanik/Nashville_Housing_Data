@@ -1,5 +1,5 @@
 
-# SQL_for_Data_Analysis
+# SQL_for_Data_Cleaning
 
 Compilation of SQL data analysis related projects and challenges where I practice aggregates,joins and windows functions.
 
