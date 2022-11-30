@@ -28,6 +28,6 @@ I'm using SSMS for cleaning that data.
 
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://subhadeepbanik.github.io/SubhadeepBanik.io/)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://subhadeepbanik.github.io/subhadeepbanik.io/)
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/subhadeep-banik-215319134?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BCtHzZZRPQxitoagiVbCPZQ%3D%3D)
