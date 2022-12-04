@@ -3,7 +3,7 @@
 
 Compilation of SQL data analysis related projects and challenges where I practice aggregates,joins and windows functions.
 
-This data is about NasNashville property and their owners.
+This data is about Nashville property and their owners.
 
 I'm using SSMS for cleaning that data.
 
